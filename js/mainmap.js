@@ -25,7 +25,7 @@ require([
     ymax: 2690230.193,
     spatialReference: 3857
   };
-
+getQueryVariable();
   const webmap = new WebMap({
     portalItem: {
       // autocasts as new PortalItem()
