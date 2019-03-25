@@ -1,3 +1,17 @@
+idmap = "d469bc9456124f7f9985ac97204fb9a4"
+
+var  getQueryVariable = ()=>
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       console.log("lo que trae la variable "+query)
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               //if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+}
+
 require([
   "esri/WebMap",
   "esri/views/MapView",
@@ -15,7 +29,7 @@ require([
   const webmap = new WebMap({
     portalItem: {
       // autocasts as new PortalItem()
-      id: "d469bc9456124f7f9985ac97204fb9a4"
+      id: idmap
     }
   });
 
