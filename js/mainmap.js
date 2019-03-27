@@ -1,16 +1,16 @@
-idmap = "d469bc9456124f7f9985ac97204fb9a4"
+//idmap = "d469bc9456124f7f9985ac97204fb9a4"
 
-var getQueryVariable = () => {
-  console.log(window.location.search)
-  var query = window.location.search.substring(1);
-  var vars = query.split("&");
-  console.log("lo que trae la variable " + query)
-  for (var i = 0; i < vars.length; i++) {
-    var pair = vars[i].split("=");
-    //if(pair[0] == variable){return pair[1];}
-  }
-  return (false);
-}
+// var getQueryVariable = () => {
+//   console.log(window.location.search)
+//   var query = window.location.search.substring(1);
+//   var vars = query.split("&");
+//   console.log("lo que trae la variable " + query)
+//   for (var i = 0; i < vars.length; i++) {
+//     var pair = vars[i].split("=");
+//     //if(pair[0] == variable){return pair[1];}
+//   }
+//   return (false);
+// }
 
 require([
   "esri/WebMap",
@@ -20,16 +20,15 @@ require([
 ], function (WebMap, MapView, Bookmarks, Home) {
   let baseExtent = {
     xmin: -2588034.141,
-    ymin: -1467944.146,
+    ymin: -1167044.146,
     xmax: 4334103.14,
-    ymax: 2690230.193,
+    ymax: 2990930.193,
     spatialReference: 3857
   };
-  getQueryVariable();
   const webmap = new WebMap({
     portalItem: {
       // autocasts as new PortalItem()
-      id: idmap
+      id: window.localStorage.getItem('mapaid')
     }
   });
 
@@ -74,3 +73,4 @@ require([
     }
   });
 });
+
