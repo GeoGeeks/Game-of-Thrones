@@ -1,5 +1,5 @@
 body {
-  /*background-image: url(//images/fondonegro.jpg);*/
+  /*background-image: url(//Game-of-thrones//imagess/fondonegro.jpg);*/
   background-color: black;
   margin: 0 auto;
   height: 100%;
@@ -62,38 +62,38 @@ body {
   right: 3px;
   bottom: 50px;
   left: 3px;
-  background-image: url(/images/t6.png);
+  background-image: url(/Game-of-thrones/imagess/t6.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 25%;
 }
 .grow .item:nth-child(1n):before {
-  background-image: url(/images/temporada1.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada1.jpg);
   background-position: 50% 50%;
 }
 
 .grow .item:nth-child(2n):before {
-  background-image: url(/images/temporada2.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada2.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(3n):before {
-  background-image: url(/images/temporada3.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada3.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(4n):before {
-  background-image: url(/images/temporada4.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada4.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(5n):before {
-  background-image: url(/images/temporada5.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada5.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(6n):before {
-  background-image: url(/images/temporada6.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada6.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(7n):before {
-  background-image: url(/images/temporada7.jpg);
+  background-image: url(/Game-of-thrones/imagess/temporada7.jpg);
   background-position: 50% 50%;
 }
 .titulo {
