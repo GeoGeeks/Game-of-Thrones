@@ -43,3 +43,9 @@ body {
     height: 100%;
     object-fit: contain; /*magic*/
   }
+
+  .poll-title {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: yellow;
+    margin: 5%;
+  }
