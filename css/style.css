@@ -30,8 +30,8 @@ body {
 }
 .grow .item .text {
   position: absolute;
-  font-size: 23px;
-  font-weight: 200;
+  font-size: 20px;
+  font-weight: 100;
   font-family: 'ZCOOL XiaoWei', serif;
   color: WHITE;
   opacity: 0;
@@ -62,39 +62,40 @@ body {
   right: 3px;
   bottom: 50px;
   left: 3px;
-  background-image: url(/Game-of-thrones/images/t6.png);
+  background-image: url(/Game-of-Thrones/images/t6.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 25%;
 }
 .grow .item:nth-child(1n):before {
-  background-image: url(/Game-of-thrones/images/temporada1.jpg);
+  background-image: url(../images/temporada1.jpg);
   background-position: 50% 50%;
+
 }
 
 .grow .item:nth-child(2n):before {
-  background-image: url(/Game-of-thrones/images/temporada2.jpg);
+  background-image: url(../images/temporada2.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(3n):before {
-  background-image: url(/Game-of-thrones/images/temporada3.jpg);
+  background-image: url(../images/temporada3.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(4n):before {
-  background-image: url(/Game-of-thrones/images/temporada4.jpg);
+  background-image: url(../images/temporada4.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(5n):before {
-  background-image: url(/Game-of-thrones/images/temporada5.jpg);
+  background-image: url(../images/temporada5.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(6n):before {
-  background-image: url(/Game-of-thrones/images/temporada6.jpg);
+  background-image: url(../images/temporada6.jpg);
   background-position: 50% 50%;
 }
 .grow .item:nth-child(7n):before {
-  background-image: url(/Game-of-thrones/images/temporada7.jpg);
-  background-position: 50% 50%;
+  background-image: url(../images/temporada7.jpg);
+  background-position: 50 50%;
 }
 .titulo {
   width: 50%;
@@ -102,4 +103,77 @@ body {
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 2%;
+}
+@media screen and (max-width: 376px) { /* width at which layout changes  */
+  .grow {
+
+
+    width: 900px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+    .item_1{
+      left: 14%;
+      height: 50%;
+
+
+  }
+  .grow .item:hover {
+    width: 10%;
+    /* This is the height on hover */
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_2{
+      top:40%;
+      height: 50%;
+
+
+  }
+  .item .item_2{
+    width: 2000px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_3{
+        top:81%;
+        left:-14%;
+        height: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_4{
+      top:122%;
+      left:-28%;
+        height: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_5{
+   top:164%;
+   left:-42%;
+     height: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_6{
+      top:206%;
+      left:-56%;
+       height: 50%;
+  }
+}
+
+@media screen and (max-width: 376px) {
+    .item_7{
+        top:248%;
+        left:-70%;
+        height: 50%;
+  }
 }
